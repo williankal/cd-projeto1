@@ -1,0 +1,117 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Projeto 1-Ciencia de dados\n",
+    "\n",
+    "## Comunidade andina\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Nome: Willian Kenzo Asanuma Lee"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Pergunta a ser respondida? "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Com a criação de uma zona de livre comércio, qual o impacto que teve na abertura de negócios e criação de empregos/taxa de desemprego?\n",
+    "Houve aumento das exportações/importações após 1992, no qual foi criado uma zona de livre comercio entre eles?\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Explicação de hipótese e mecanismo"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Uma das principais funções na criação de uma zona de livre comércio é aumentar a troca de produtos entre tais países, por meio da redução de taxas de importação aplicadas a produtos oriundos dos seus integrantes, estimulando a abertura de novos negócios e subsequentemente a geração de novos empregos.\n",
+    "-para analisar tal fato, será analisado a taxa de desemprego desses paises com outros que não pertencem a esse grupo e o GDP.\n",
+    "\n",
+    "Sendo criado uma zona de livre comércio, no qual seu objetivo é estimular o comércio entre os países participantes, acredita-se que estimula os negócios com a redução das taxas alfandegarias.\n",
+    "\n",
+    "\n",
+    "https://pdfs.semanticscholar.org/7284/6d7b8bd92dd74108f9fcb59f668adde2badd.pdf\n",
+    "https://pdfs.semanticscholar.org/36aa/426ac1a1e5ca29fa5e19de2e4b075328e31b.pdf"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Análise de dados\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### Importações e leituras\n",
+    "O programa importa as bibliotecas e le os arquivos que serão utilziados."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "%matplotlib inline\n",
+    "import pandas as pd\n",
+    "import matplotlib.pyplot as plt\n",
+    "\n",
+    "export=pd.read_excel('ExportGDP.xlsx')\n",
+    "imports=pd.read_excel('ImportGDP.xlsx')\n",
+    "gdp=pd.read_excel('indicator gdp_total_ppp.xlsx')\n",
+    "desemprego=pd.read_excel('indicator_t 25-54 unemploy.xlsx')\n",
+    "gni=pd.read_excel('indicatorGNIpercapitaPPP.xlsx')\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.3"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
